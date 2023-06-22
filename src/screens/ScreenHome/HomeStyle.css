@@ -1,0 +1,19 @@
+.containerGray{
+    width: 100%;
+    background-color: rgba(246, 246, 246, 1);
+    border-radius:25px;
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 230px;
+}
+
+
+.containerLogement{
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap; /* Permet aux cartes de passer à la ligne lorsque l'espace est insuffisant */
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 90px;
+}

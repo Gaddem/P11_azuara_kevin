@@ -1,24 +1,27 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import "./styles/global.css"
+// import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import ScreenHome from "./screens/ScreenHome/ScreenHome";
+import ScreenError from "./screens/ScreenError";
+import ScreenLogement from "./screens/ScreenLogement/ScreenLogement";
+import ScreenPropos from "./screens/ScreenPropos/ScreenPropos";
+import Layout from "./layout/Layout";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <Layout>
+        <div>
+          <Routes>
+            <Route path="/" element={<ScreenHome />} />
+            <Route path="/logement/:id" element={<ScreenLogement />} />
+            <Route path="/propos" element={<ScreenPropos />} />
+            <Route path="*" element={<ScreenError />} />
+          </Routes>
+        </div>
+      </Layout>
+    </Router>
   );
 }
 

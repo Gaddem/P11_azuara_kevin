@@ -1,0 +1,21 @@
+.container {
+  width: 100%;
+  height: 250px;
+  background: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)),
+    url("../../img/main/main_img.png");
+  background-size: cover;
+  background-position: center;
+  border-radius: 25px;
+  display: flex;
+  justify-content: "center";
+  align-items: center;
+  margin-top: 100px;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  width: 100%;
+  font-weight: 500;
+  font-size: 38px;
+}

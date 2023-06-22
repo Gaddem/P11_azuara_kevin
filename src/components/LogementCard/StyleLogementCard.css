@@ -1,0 +1,19 @@
+.containerCard {
+  background: linear-gradient(
+    180deg,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(0, 0, 0, 0.5) 100%
+  );
+  background-color: #fc6868;
+  border-radius: 10px;
+  display: flex;
+  align-items: flex-end;
+  width: 28%;
+  margin: 2%;
+  aspect-ratio: 1;
+}
+h2 {
+  color: white;
+  font-weight: 400;
+  margin: 0 20px 30px 20px;
+}
