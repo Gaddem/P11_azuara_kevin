@@ -1,16 +1,21 @@
-
-.layout_incontainer{
-    display: flex;
-    flex-direction: column;
-    min-height: 85vh;
-}
 .layout_container{
     display: flex;
     flex-direction: column;
     position: relative;
     flex:1;
-    min-height: 100vh;
+    height: 100%;
+    /* min-height: 100vh; */
 }
+
+
+.layout_incontainer{
+    display: flex;
+    flex-direction: column;
+    flex:1;
+    height: 100%    ;
+    min-height: 82vh;
+}
+
 @media (max-width: 768px) {
     .layout_incontainer{
         margin: 0 5.06% 0 5.06%;

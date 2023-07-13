@@ -7,8 +7,8 @@ const Layout = ({ children }) => {
   return (
     <div className="layout_container">
       <div className="layout_incontainer">
-      <CompHeader />
-      {children}
+        <CompHeader />
+        {children}
       </div>
       <CompFooter />
     </div>

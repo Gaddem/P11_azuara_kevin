@@ -1,0 +1,63 @@
+.hostContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.hostContainerImg {
+  display: flex;
+  flex-direction: row;
+}
+
+.hostImg {
+  object-fit: contain;
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  margin: 0 15px 0 15px;
+}
+
+.container_profilstars {
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  align-items: flex-end;
+}
+
+.textNameHost {
+  color: rgba(255, 96, 96, 1);
+  font-size: 18px;
+  text-align: right;
+  font-weight: 500;
+  text-align: right;
+  width: min-content;
+  white-space: break-space;
+  margin-left: auto;
+  margin-right: auto;
+  align-self: flex-start;
+}
+
+.containerStars {
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+  justify-content: flex-end;
+}
+
+@media (max-width: 768px) {
+  .container_profilstars {
+    width: 100%;
+    flex-direction: row;
+  }
+  .hostContainer {
+    flex-direction: row-reverse;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .hostContainerImg {
+    align-items: center;
+  }
+  .textNameHost {
+    font-size: 20px;
+  }
+}

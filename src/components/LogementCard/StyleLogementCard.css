@@ -12,8 +12,19 @@
   margin: 2%;
   aspect-ratio: 1;
 }
+
 h2 {
   color: white;
   font-weight: 400;
   margin: 0 20px 30px 20px;
+}
+
+@media (max-width: 768px) {
+  .containerCard {
+    width: 100%;
+    aspect-ratio: 1.4;
+  }
+  h2 {
+    font-size: 32px;
+  }
 }

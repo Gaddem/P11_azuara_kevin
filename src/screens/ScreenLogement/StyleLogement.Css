@@ -1,0 +1,30 @@
+.containerDropDowLogement {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 25px;
+}
+
+.diviserDrop {
+  width: 47%;
+}
+
+.wrapperContentLog {
+  display: flex;
+  flex-direction: row;
+  margin-top:50px;
+}
+
+@media (max-width: 768px) {
+  .wrapperContentLog {
+    flex-direction: column;
+    margin-top:10px;
+  }
+  .containerDropDowLogement{
+    flex-direction: column;
+  }
+  .diviserDrop {
+    width: 100%;
+  }
+}

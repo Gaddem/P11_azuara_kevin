@@ -9,12 +9,12 @@ const CompDropDownList = ({title,content}) => {
     <div className='containerDropDownList '>
       <div className='rowContainDropDownList' onClick={() => setListeOpen(!listeOpen)} >
         <p className='titleDropDownList'>{title}</p>
-        <img className='chevronDropDonwList' src={chevron} alt="DropDown" />
+        <img className={`chevronDropDonwList ${listeOpen === true && 'chevronDropDonwListUp'}`} src={chevron} alt="DropDown" />
       </div>
       {listeOpen &&
 
       <div className='containerContentDropDownList'>
-        <p className='contentDropDownList'>{content}</p>
+        <p dangerouslySetInnerHTML={{ __html: content }} className='contentDropDownList'></p>
       </div>
 
       }

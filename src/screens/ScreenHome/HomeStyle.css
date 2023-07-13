@@ -12,8 +12,23 @@
 .containerLogement{
     width: 90%;
     display: flex;
-    flex-wrap: wrap; /* Permet aux cartes de passer à la ligne lorsque l'espace est insuffisant */
+    flex-wrap: wrap; 
     justify-content: space-between;
     align-items: center;
     margin-top: 90px;
+}
+
+@media (max-width: 768px) {
+    .containerLogement{
+        flex-direction: column;
+        flex-wrap: nowrap;
+        margin-top: 20px;
+        width: 100%;
+    }
+    .containerGray{
+        background-color:white;
+        margin-top: 0;
+        margin-bottom: 20px;
+    }
+
 }

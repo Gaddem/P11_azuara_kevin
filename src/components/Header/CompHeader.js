@@ -9,7 +9,9 @@ const CompHeader = () => {
   const location = useLocation();
   return (
     <div className="header_container">
-      <img src={logo} alt="Logo" />
+    
+      <img className="header_logo" src={logo} alt="Logo" />
+   
       <nav>
         <ul>
           <li >

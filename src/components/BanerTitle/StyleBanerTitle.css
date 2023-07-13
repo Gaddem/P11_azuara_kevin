@@ -19,3 +19,16 @@ h1 {
   font-weight: 500;
   font-size: 38px;
 }
+
+@media (max-width: 768px) {
+  h1 {
+    text-align: left;
+    padding: 0 25px;
+  }
+  .container{
+    margin-top: 25px;
+  }
+  .containerPropos{
+    height: 350px;
+  }
+}

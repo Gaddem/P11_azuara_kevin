@@ -1,9 +1,8 @@
 .containerDropDownList{
     display: flex;
     flex-direction: column;
-    width: 90%;
+    width: 100%;
     margin: 20px 0;
-    align-self: center;
     justify-content: center;
     align-items: center;
 }
@@ -14,7 +13,7 @@
     align-items: center;
     justify-content: space-between;
     background-color: rgba(255, 96, 96, 1);
-    border-radius: 5px;
+    border-radius: 10px;
     
 }
 .titleDropDownList{
@@ -28,6 +27,9 @@
     object-fit: contain;
     width:25px;
     margin: 15px 20px;
+}
+.chevronDropDonwListUp{
+    transform: rotate(180deg);
 }
 
 .containerContentDropDownList{

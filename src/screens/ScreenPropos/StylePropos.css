@@ -1,5 +1,19 @@
-.listing{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+.listing {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  align-self: center;
+}
+.flexColumnPropos {
+  display: flex;
+  flex-direction: column;
+}
+
+@media (max-width: 768px) {
+    .listing {
+        width: 100%;
+
+      }
 }

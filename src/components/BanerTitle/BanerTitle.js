@@ -14,7 +14,7 @@ const BanerTitle = ({ title, type }) => {
     width:"100%"
   };
   return (
-    <div style={containerStyle} className="container">
+    <div style={containerStyle} className={`container ${ type==="propos" && "containerPropos"}`}>
       <h1>{title}</h1>
     </div>
   );
