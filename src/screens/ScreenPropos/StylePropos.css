@@ -12,8 +12,7 @@
 }
 
 @media (max-width: 768px) {
-    .listing {
-        width: 100%;
-
-      }
+  .listing {
+    width: 100%;
+  }
 }

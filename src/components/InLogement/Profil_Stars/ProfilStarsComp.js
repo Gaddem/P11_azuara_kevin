@@ -11,8 +11,9 @@ const ProfilStarsComp = ({ profil_name, srcImg, rate = 0 }) => {
           ? require("../../../img/icons/star-active.png")
           : require("../../../img/icons/star-inactive.png");
       return (
-        <div key={i}>
+        <div className="oneStar" key={i}>
           <img
+            className="starImg"
             src={route}
             alt={i <= nbStars ? "stars-active" : "stars-inactive"}
           />

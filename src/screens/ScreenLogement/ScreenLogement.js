@@ -20,7 +20,7 @@ const ScreenLogement = () => {
       let contentText = "";
       for (let index = 0; index < logementFind[0].equipments.length; index++) {
         const equip = logementFind[0].equipments[index];
-        contentText += `${equip} <br />`
+        contentText += `${equip} <br />`;
       }
       setEquipText(contentText);
     } else {
@@ -38,7 +38,11 @@ const ScreenLogement = () => {
           location={logementActif?.location}
           tags={logementActif?.tags}
         />
-        <ProfilStarsComp profil_name={logementActif?.host?.name} srcImg={logementActif?.host?.picture} rate={parseInt(logementActif?.rating)} />
+        <ProfilStarsComp
+          profil_name={logementActif?.host?.name}
+          srcImg={logementActif?.host?.picture}
+          rate={parseInt(logementActif?.rating)}
+        />
       </div>
 
       <div className="containerDropDowLogement">

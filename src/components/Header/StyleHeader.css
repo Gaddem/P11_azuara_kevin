@@ -24,13 +24,17 @@ nav {
   text-decoration: underline;
 }
 
-
 @media (max-width: 768px) {
   .header_container {
     margin: 10px 0 0 0;
   }
-  .header_logo{
-    width: 30%;
+  .header_logo {
+    width: 50%;
+  }
+  .nav-item {
+    font-size: 18px;
+  }
+  nav {
+    width: 260px;
   }
 }
-  

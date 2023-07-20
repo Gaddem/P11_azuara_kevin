@@ -11,10 +11,13 @@ const BanerTitle = ({ title, type }) => {
     backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)), url(${
       srcImage[`${type}`]
     })`,
-    width:"100%"
+    width: "100%",
   };
   return (
-    <div style={containerStyle} className={`container ${ type==="propos" && "containerPropos"}`}>
+    <div
+      style={containerStyle}
+      className={`container ${type === "propos" && "containerPropos"}`}
+    >
       <h1>{title}</h1>
     </div>
   );

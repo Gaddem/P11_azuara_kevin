@@ -1,44 +1,62 @@
-.containerDropDownList{
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    margin: 20px 0;
-    justify-content: center;
-    align-items: center;
+.containerDropDownList {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: 20px 0;
+  justify-content: center;
+  align-items: center;
 }
-.rowContainDropDownList{
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    background-color: rgba(255, 96, 96, 1);
-    border-radius: 10px;
-    
+.rowContainDropDownList {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgba(255, 96, 96, 1);
+  border-radius: 10px;
 }
-.titleDropDownList{
-    color: white    ;
-    margin: 15px 20px;
-    font-size: 22px;
-}
-
-.chevronDropDonwList{
-    height:25px;
-    object-fit: contain;
-    width:25px;
-    margin: 15px 20px;
-}
-.chevronDropDonwListUp{
-    transform: rotate(180deg);
+.titleDropDownList {
+  color: white;
+  margin: 15px 20px;
+  font-size: 22px;
 }
 
-.containerContentDropDownList{
-    background-color: rgba(246, 246, 246, 1);
-    width: 100%;
+.chevronDropDonwList {
+  height: 25px;
+  object-fit: contain;
+  width: 25px;
+  margin: 15px 20px;
+}
+.chevronDropDonwListUp {
+  transform: rotate(180deg);
 }
 
-.contentDropDownList{
-    color:rgba(255, 96, 96, 1);
-    font-size: 22px;
-    padding:0 20px;
+.containerContentDropDownList {
+  background-color: rgba(246, 246, 246, 1);
+  width: 100%;
+}
+
+.contentDropDownList {
+  color: rgba(255, 96, 96, 1);
+  font-size: 22px;
+  padding: 0 20px;
+}
+
+@media (max-width: 768px) {
+  .titleDropDownList {
+    margin: 10px 20px;
+    font-size: 16px;
+    font-weight: 500;
+  }
+  .chevronDropDonwList {
+    height: 18px;
+    width: 18px;
+    margin: 10px 20px;
+  }
+  .contentDropDownList {
+    font-size: 14px;
+  }
+  .containerDropDownList {
+    margin: 10px 0;
+  }
 }
