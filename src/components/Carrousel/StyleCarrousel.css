@@ -23,6 +23,13 @@
 .arrowRight {
   right: 15px;
 }
+.carrouselNumerotation {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  font-weight: 400;
+  color: white;
+}
 
 @media (max-width: 768px) {
   .containerCarrousel {
@@ -32,5 +39,8 @@
   .arrow {
     height: 10%;
     top: 45%;
+  }
+  .carrouselNumerotation {
+    visibility: hidden;
   }
 }
