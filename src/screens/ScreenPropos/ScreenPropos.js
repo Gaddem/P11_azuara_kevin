@@ -30,14 +30,13 @@ const ScreenPropos = () => {
     <div className="flexColumnPropos">
       <BanerTitle type="propos" />
       <div className="listing">
-        {contentsTextuels.map((itemPropos, i) => {
-          return (
-            <CompDropDownList
-              title={itemPropos.title}
-              content={itemPropos.contentTxt}
-            />
-          );
-        })}
+        {contentsTextuels.map((itemPropos, i) => (
+          <CompDropDownList
+            key={i}
+            title={itemPropos.title}
+            content={itemPropos.contentTxt}
+          />
+        ))}
       </div>
     </div>
   );
