@@ -49,7 +49,6 @@
   }
   .containerTags {
     margin-top: 10px;
-    /* flex-direction: column; */
     flex-wrap: wrap;
   }
   .containerTag {

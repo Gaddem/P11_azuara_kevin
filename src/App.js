@@ -1,6 +1,5 @@
 import "./App.css";
 import "./styles/global.css"
-// import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import ScreenHome from "./screens/ScreenHome/ScreenHome";
 import ScreenError from "./screens/ScreenError/ScreenError";
