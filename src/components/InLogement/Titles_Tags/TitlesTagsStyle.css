@@ -49,12 +49,14 @@
   }
   .containerTags {
     margin-top: 10px;
+    /* flex-direction: column; */
+    flex-wrap: wrap;
   }
   .containerTag {
     min-width: 70px;
     background-color: rgba(255, 96, 96, 1);
     border-radius: 10px;
     padding: 4px 20px;
-    margin-right: 15px;
+    margin: 5px;
   }
 }
