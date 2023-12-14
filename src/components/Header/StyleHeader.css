@@ -29,10 +29,11 @@ nav {
     margin: 10px 0 0 0;
   }
   .header_logo {
-    width: 50%;
+    width: 41%;
   }
   .nav-item {
-    font-size: 18px;
+    font-size: 17px;
+    text-transform: uppercase;
   }
   nav {
     width: 260px;

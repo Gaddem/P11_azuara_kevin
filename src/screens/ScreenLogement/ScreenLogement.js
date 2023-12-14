@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from "react";
 import { useParams, useNavigate } from "react-router-dom";
-import "./StyleLogement.css";
 import logements from "../../data/logements.json";
 import CompDropDownList from "../../components/DropDown/CompDropDownList";
 import CompCarrousel from "../../components/Carrousel/CompCarrousel";
